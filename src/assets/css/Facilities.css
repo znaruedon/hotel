@@ -1,0 +1,20 @@
+.facilities {
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.facilities h4 {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.facilities ul {
+  list-style: none;
+  padding: 0;
+}
+
+.facilities ul li {
+  margin-bottom: 10px;
+}

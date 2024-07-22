@@ -1,0 +1,33 @@
+.hotel-details {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.hotel-details h3 {
+  margin-top: 0;
+}
+
+.hotel-details p {
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.hotel-details .staycation-offers {
+  margin-top: 20px;
+}
+
+.hotel-details .staycation-offers h4 {
+  margin-bottom: 10px;
+}
+
+.hotel-details ul {
+  list-style: none;
+  padding: 0;
+}
+
+.hotel-details ul li {
+  margin-bottom: 10px;
+}

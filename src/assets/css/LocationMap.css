@@ -1,0 +1,86 @@
+.location-input-container {
+  position: relative;
+}
+
+.location-input {
+  display: flex;
+  align-items: center;
+  background-color: #1c1c1c;
+  border: 1px solid #B67C4B;
+  padding: 0 10px;
+  color: #fff;
+  height: 2.5em;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.location-input .icon {
+  margin-right: 10px;
+  color: #fff;
+}
+
+.location-input input {
+  border: none;
+  background: none;
+  color: #ffffff;
+  font-size: 14px;
+  flex-grow: 1;
+  outline: none;
+  cursor: pointer;
+}
+
+.location-popup {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 5px;
+  z-index: 1000;
+}
+
+.location-popup h4 {
+  margin: 10px;
+  font-size: 16px;
+  color: #3A2A1A;
+}
+
+.location-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-top: 1px solid #eee;
+}
+
+.location-item:first-of-type {
+  border-top: none;
+}
+
+.location-info {
+  flex-grow: 1;
+}
+
+.location-name {
+  font-size: 14px;
+  font-weight: bold;
+  color: #492F1D;
+}
+
+.location-details {
+  font-size: 12px;
+  color: #999999;
+}
+
+.location-button {
+  background-color: transparent;
+  border: 1px solid #492F1D;
+  color: #492F1D;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 12px;
+}

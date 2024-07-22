@@ -1,0 +1,83 @@
+.location-input-container {
+    position: relative;
+    width: 25%;
+  }
+  
+  .location-input {
+    display: flex;
+    align-items: center;
+    background-color: #1c1c1c;
+    border: 1px solid #B67C4B;
+    border-radius: 5px;
+    padding: 0 10px;
+    color: #fff;
+    cursor: pointer;
+    flex-grow: 2;
+  }
+  
+  .location-input .icon {
+    margin-right: 10px;
+    color: #fff;
+  }
+  
+  .location-input input {
+    border: none;
+    background: none;
+    color: #ffffff;
+    font-size: 14px;
+    flex-grow: 1;
+    outline: none;
+  }
+  
+  .location-popup {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+  }
+  
+  .location-option {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .location-option:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .location-option div {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .location-option strong {
+    color: #4c4c4c;
+  }
+  
+  .location-option p {
+    margin: 0;
+    color: #999;
+  }
+  
+  .location-option button {
+    background: none;
+    border: 1px solid #B67C4B;
+    color: #B67C4B;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .location-option button:hover {
+    background-color: #B67C4B;
+    color: #fff;
+  }
+  

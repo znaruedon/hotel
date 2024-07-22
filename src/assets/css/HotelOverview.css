@@ -1,0 +1,40 @@
+.hotel-overview {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.hotel-overview h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.hotel-overview .hotel-images {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.hotel-overview .hotel-images img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.hotel-overview .view-deal-button {
+  background-color: #ff6600;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.hotel-overview .view-deal-button:hover {
+  background-color: #e65c00;
+}

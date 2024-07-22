@@ -1,0 +1,43 @@
+/* Calendar.css */
+.custom-calendar {
+    font-family: Arial, sans-serif;
+}
+
+.custom-calendar .react-datepicker__header {
+    background-color: #fff;
+    border-bottom: none;
+}
+
+.custom-calendar .react-datepicker__current-month {
+    color: #000;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.custom-calendar .react-datepicker__day--weekend {
+    color: red !important;
+}
+
+.custom-calendar .react-datepicker__day-name:first-letter {
+    text-transform: uppercase;
+}
+
+
+.custom-calendar .react-datepicker__day--disabled {
+    color: #ccc;
+}
+
+.custom-calendar .react-datepicker__day--selected {
+    background-color: #1a73e8;
+    color: #fff;
+    border-radius: 50%;
+}
+
+.custom-calendar .react-datepicker__day--today {
+    background-color: #e0e0e0;
+    border-radius: 50%;
+}
+
+
+

@@ -1,0 +1,77 @@
+.check-input {
+    display: flex;
+    align-items: center;
+    border: 1px solid #B67C4B;
+    padding: 0 10px;
+    color: #fff;
+    height: 2.5em;
+    flex-grow: 1;
+  }
+  
+  .check-input .icon {
+    margin-right: 10px;
+    width: 24px;
+    height: 24px;
+  }
+  
+  .check-input .date-picker-input {
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    font-size: 16px;
+    outline: none;
+  }
+  
+  .check-input .date-picker-input::placeholder {
+    color: white;
+  }
+  
+  .check-input-wrapper {
+    width: 45%;
+    display: flex;
+    gap: 0; /* Remove gap between check inputs */
+  }
+  
+  .check-input-wrapper .check-input:first-of-type {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+  
+  .check-input-wrapper .check-input:last-of-type {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+  
+  .check-input-wrapper .check-input + .check-input {
+    border-left: none;
+  }
+  
+  .highlight-red {
+    color: red !important;
+  }
+  
+  .weekend {
+    color: red !important;
+  }
+  
+  .weekday {
+    color: black !important;
+  }
+  
+  .custom-calendar .react-datepicker__day--weekend {
+    color: red;
+  }
+  
+  .custom-calendar .react-datepicker__day--outside-month {
+    color: #ccc;
+  }
+  
+  .custom-calendar .react-datepicker__header {
+    background-color: #f0f0f0;
+  }
+  
+  .custom-calendar .react-datepicker__current-month {
+    font-weight: bold;
+  }
+  

@@ -1,0 +1,29 @@
+.room-input {
+  display: flex;
+  align-items: center;
+  background-color: #1c1c1c;
+  border: 1px solid #B67C4B;
+  padding: 0 10px;
+  color: #fff;
+  height: 2.5em;
+  flex: 1;
+  border-radius: 5px;
+}
+
+.room-input .icon {
+  margin-right: 10px;
+  color: #fff;
+}
+
+.room-input input {
+  border: none;
+  background: none;
+  color: #ffffff;
+  font-size: 14px;
+  flex-grow: 1;
+  outline: none;
+}
+
+.room-input input::placeholder {
+  color: #ffffff;
+}

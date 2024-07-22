@@ -1,0 +1,31 @@
+.auth-buttons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+    margin-left: auto;
+  }
+  
+  .auth-buttons .login-button,
+  .auth-buttons .register-button {
+    background-color: transparent;
+    color: #492F1D;
+    border: 1px solid #492F1D;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+  
+  .auth-buttons .register-button {
+    background-color: #000000;
+    color: #D2A67E;
+  }
+  
+  @media (max-width: 1024px) {
+    .auth-buttons {
+      justify-content: center;
+      margin-top: 10px;
+      margin-left: 0;
+    }
+  }
+  
